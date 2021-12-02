@@ -1,0 +1,138 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: royalblue;
+    width: 100%;
+    height: 100%;
+}
+header{
+    top:0;
+    right: 0;
+    left: 0;
+    position: fixed;
+}
+nav{
+    margin: auto;
+    display: flex;
+    height: 60px;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+nav .profilepic{
+    height: 75%;
+    margin-top: 8px;
+    float: right;
+    margin-right: 50px;
+;
+}
+section{
+    background-color: bisque;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    width: 50%;
+    align-content: center;
+    flex-direction: column;
+}
+nav div.search-container > button{
+    box-sizing: border-box;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    background-color: bisque;
+}
+
+nav .logo {
+    width: 25%;
+}
+
+nav .search-container{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+}
+
+nav div.search-container > input {
+    box-sizing: border-box;
+    height: 30px;
+    width: calc(100% - 90px);
+
+}
+
+.postBox{
+
+    width: 80%;
+    background-color: bisque;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 3px solid royalblue;
+    box-shadow: 0 0 3px gray;
+    margin-bottom: 10px;
+
+}
+.postHeader{
+    border-top-radius:5px;
+    height: 40px;
+    width: 100%;
+    border-bottom: 3px gray;
+}
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    object-fit: fill;
+}
+.postDesc{
+    text-align: center;
+}
+.postHeader img{
+    margin-left: 20px;
+    max-height: 80%;
+    max-width: 80%;
+    align-content: center;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.postHeader p{
+    margin-right: 20px;
+    float:right;
+}
+
+.postDesc p{
+    font-weight: bold;
+    font-size: large;
+}
+
+.profile{
+    width: 25%;
+    text-align: center;
+}
+.profileView{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 100px;
+    max-width: 25%;
+    text-align: center;
+    top: 100%;
+    right: 0;
+;
+}
+.profileView.visible{
+    display: block;
+
+}
+.profileView p{
+    margin: 5px;
+}
+
+
+
+
